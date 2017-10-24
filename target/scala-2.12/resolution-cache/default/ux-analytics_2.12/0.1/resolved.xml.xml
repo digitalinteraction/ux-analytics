@@ -4,7 +4,7 @@
 		module="ux-analytics_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20171020164832"
+		publication="20171024100339"
 	>
 		<description>
 		ux-analytics
@@ -39,5 +39,8 @@
 		<dependency org="io.circe" name="circe-core_2.12" rev="0.8.0" conf="compile->default(compile)"/>
 		<dependency org="io.circe" name="circe-generic_2.12" rev="0.8.0" conf="compile->default(compile)"/>
 		<dependency org="io.circe" name="circe-parser_2.12" rev="0.8.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-http_2.12" rev="10.0.10" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-stream_2.12" rev="2.5.6" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.12" rev="2.5.6" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

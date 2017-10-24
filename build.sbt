@@ -1,4 +1,4 @@
-name := "ux-analytics"
+name := "uxAnalytics"
 
 version := "0.1"
 
@@ -19,4 +19,10 @@ libraryDependencies ++= Seq(
   "io.circe" %% "circe-generic",
   "io.circe" %% "circe-parser"
 ).map(_ % circeVersion)
+
+libraryDependencies ++= Seq(
+  "com.typesafe.akka" %% "akka-http" % "10.0.10",
+  "com.typesafe.akka" %% "akka-stream" % "2.5.6",
+  "com.typesafe.akka" %% "akka-actor" % "2.5.6"
+)
         

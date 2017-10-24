@@ -7,22 +7,22 @@
 		revision="0.1"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20171020164838"/>
+		date="20171024100349"/>
 	<dependencies>
 		<module organisation="io.circe" name="circe-parser_2.12">
-			<revision name="0.8.0" status="release" pubdate="20170509150549" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="24">
+			<revision name="0.8.0" status="release" pubdate="20170509150549" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="32">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3079" time="0" location="/Users/b0915218/.ivy2/cache/io.circe/circe-parser_2.12/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/0.8.0/circe-parser_2.12-0.8.0.pom"/>
 				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.1" extra-info.apiURL="https://circe.github.io/circe/api/"/>
 				<artifacts>
-					<artifact name="circe-parser_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="826" time="329" location="/Users/b0915218/.ivy2/cache/io.circe/circe-parser_2.12/srcs/circe-parser_2.12-0.8.0-sources.jar">
+					<artifact name="circe-parser_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="826" time="0" location="/Users/b0915218/.ivy2/cache/io.circe/circe-parser_2.12/srcs/circe-parser_2.12-0.8.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/0.8.0/circe-parser_2.12-0.8.0-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.zaxxer" name="HikariCP">
-			<revision name="2.7.2" status="release" pubdate="20171002170020" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/brettwooldridge/HikariCP" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+			<revision name="2.7.2" status="release" pubdate="20171002170020" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/brettwooldridge/HikariCP" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="30">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="8042" time="0" location="/Users/b0915218/.ivy2/cache/com.zaxxer/HikariCP/ivy-2.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.7.2/HikariCP-2.7.2.pom"/>
 				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="0.1"/>
@@ -33,20 +33,8 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="com.typesafe" name="config">
-			<revision name="1.3.1" status="release" pubdate="20160924135320" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
-				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="2875" time="0" location="/Users/b0915218/.ivy2/cache/com.typesafe/config/ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.1/config-1.3.1.pom"/>
-				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="170512" time="0" location="/Users/b0915218/.ivy2/cache/com.typesafe/config/srcs/config-1.3.1-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.1/config-1.3.1-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
 		<module organisation="org.slf4j" name="slf4j-api">
-			<revision name="1.7.25" status="release" pubdate="20170316163632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+			<revision name="1.7.25" status="release" pubdate="20170316163632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
 				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
 				<metadata-artifact status="no" details="" size="5199" time="0" location="/Users/b0915218/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
 				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.1"/>
@@ -57,8 +45,20 @@
 				</artifacts>
 			</revision>
 		</module>
+		<module organisation="com.typesafe.akka" name="akka-http_2.12">
+			<revision name="10.0.10" status="release" pubdate="20170831154017" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="2793" time="0" location="/Users/b0915218/.ivy2/cache/com.typesafe.akka/akka-http_2.12/ivy-10.0.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.0.10/akka-http_2.12-10.0.10.pom"/>
+				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="10.0.10" rev-constraint-default="10.0.10" rev-constraint-dynamic="10.0.10" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="akka-http_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="197462" time="98" location="/Users/b0915218/.ivy2/cache/com.typesafe.akka/akka-http_2.12/srcs/akka-http_2.12-10.0.10-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.0.10/akka-http_2.12-10.0.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.typesafe.play" name="anorm_2.12">
-			<revision name="2.5.3" status="release" pubdate="20170216230412" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/anorm" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+			<revision name="2.5.3" status="release" pubdate="20170216230412" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/anorm" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="11">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="4006" time="0" location="/Users/b0915218/.ivy2/cache/com.typesafe.play/anorm_2.12/ivy-2.5.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/anorm_2.12/2.5.3/anorm_2.12-2.5.3.pom"/>
 				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="2.5.3" rev-constraint-default="2.5.3" rev-constraint-dynamic="2.5.3" callerrev="0.1"/>
@@ -69,20 +69,8 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12">
-			<revision name="1.0.4" status="release" pubdate="20161029001045" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
-				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="no" details="" size="2929" time="0" location="/Users/b0915218/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.pom"/>
-				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="scala-parser-combinators_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42274" time="0" location="/Users/b0915218/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/srcs/scala-parser-combinators_2.12-1.0.4-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
 		<module organisation="org.joda" name="joda-convert">
-			<revision name="1.8.1" status="release" pubdate="20151002115804" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-convert/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+			<revision name="1.8.1" status="release" pubdate="20151002115804" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-convert/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="6434" time="0" location="/Users/b0915218/.ivy2/cache/org.joda/joda-convert/ivy-1.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.8.1/joda-convert-1.8.1.pom"/>
 				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="1.8.1" rev-constraint-default="1.8.1" rev-constraint-dynamic="1.8.1" callerrev="0.1"/>
@@ -94,13 +82,121 @@
 			</revision>
 		</module>
 		<module organisation="com.jsuereth" name="scala-arm_2.12">
-			<revision name="2.0" status="release" pubdate="20161115230422" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jsuereth.com/scala-arm" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+			<revision name="2.0" status="release" pubdate="20161115230422" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jsuereth.com/scala-arm" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
 				<license name="BSD-Style" url="http://www.opensource.org/licenses/bsd-license.php"/>
 				<metadata-artifact status="no" details="" size="3139" time="0" location="/Users/b0915218/.ivy2/cache/com.jsuereth/scala-arm_2.12/ivy-2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/jsuereth/scala-arm_2.12/2.0/scala-arm_2.12-2.0.pom"/>
 				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="2.0" rev-constraint-default="2.0" rev-constraint-dynamic="2.0" callerrev="0.1"/>
 				<artifacts>
 					<artifact name="scala-arm_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14192" time="0" location="/Users/b0915218/.ivy2/cache/com.jsuereth/scala-arm_2.12/srcs/scala-arm_2.12-2.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/jsuereth/scala-arm_2.12/2.0/scala-arm_2.12-2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream_2.12">
+			<revision name="2.5.6" status="release" pubdate="20170929153832" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="10">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3502" time="0" location="/Users/b0915218/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/ivy-2.5.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.6/akka-stream_2.12-2.5.6.pom"/>
+				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="2.5.6" rev-constraint-default="2.5.6" rev-constraint-dynamic="2.5.6" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6"/>
+				<artifacts>
+					<artifact name="akka-stream_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="474301" time="128" location="/Users/b0915218/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/srcs/akka-stream_2.12-2.5.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.6/akka-stream_2.12-2.5.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="ssl-config-core_2.12">
+			<revision name="0.2.2" status="release" pubdate="20170308143931" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/ssl-config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3001" time="0" location="/Users/b0915218/.ivy2/cache/com.typesafe/ssl-config-core_2.12/ivy-0.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.2/ssl-config-core_2.12-0.2.2.pom"/>
+				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="0.2.2" rev-constraint-default="0.2.2" rev-constraint-dynamic="0.2.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="ssl-config-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="49384" time="0" location="/Users/b0915218/.ivy2/cache/com.typesafe/ssl-config-core_2.12/srcs/ssl-config-core_2.12-0.2.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.2/ssl-config-core_2.12-0.2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12">
+			<revision name="1.0.4" status="release" pubdate="20161029001045" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2929" time="0" location="/Users/b0915218/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.pom"/>
+				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42274" time="0" location="/Users/b0915218/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/srcs/scala-parser-combinators_2.12-1.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.1" status="release" pubdate="20170809112439" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2523" time="0" location="/Users/b0915218/.ivy2/cache/org.reactivestreams/reactive-streams/ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.1/reactive-streams-1.0.1.pom"/>
+				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3997" time="147" location="/Users/b0915218/.ivy2/cache/org.reactivestreams/reactive-streams/srcs/reactive-streams-1.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.1/reactive-streams-1.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.12">
+			<revision name="2.5.6" status="release" pubdate="20170929153709" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="26">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3099" time="0" location="/Users/b0915218/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/ivy-2.5.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.6/akka-actor_2.12-2.5.6.pom"/>
+				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="2.5.6" rev-constraint-default="2.5.6" rev-constraint-dynamic="2.5.6" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.6"/>
+				<artifacts>
+					<artifact name="akka-actor_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="518895" time="146" location="/Users/b0915218/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.6/akka-actor_2.12-2.5.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.12">
+			<revision name="0.8.0" status="release" pubdate="20161029231227" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3036" time="0" location="/Users/b0915218/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.pom"/>
+				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63853" time="0" location="/Users/b0915218/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/srcs/scala-java8-compat_2.12-0.8.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.1" status="release" pubdate="20160924135320" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="29">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2875" time="0" location="/Users/b0915218/.ivy2/cache/com.typesafe/config/ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.1/config-1.3.1.pom"/>
+				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="170512" time="0" location="/Users/b0915218/.ivy2/cache/com.typesafe/config/srcs/config-1.3.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.1/config-1.3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-core_2.12">
+			<revision name="10.0.10" status="release" pubdate="20170831153939" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3570" time="0" location="/Users/b0915218/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/ivy-10.0.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.0.10/akka-http-core_2.12-10.0.10.pom"/>
+				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="10.0.10" rev-constraint-default="10.0.10" rev-constraint-dynamic="10.0.10" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="akka-http-core_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="392718" time="242" location="/Users/b0915218/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/srcs/akka-http-core_2.12-10.0.10-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.0.10/akka-http-core_2.12-10.0.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-parsing_2.12">
+			<revision name="10.0.10" status="release" pubdate="20170831153827" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="2948" time="0" location="/Users/b0915218/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/ivy-10.0.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.0.10/akka-parsing_2.12-10.0.10.pom"/>
+				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="10.0.10" rev-constraint-default="10.0.10" rev-constraint-dynamic="10.0.10" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="akka-parsing_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="63824" time="82" location="/Users/b0915218/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/srcs/akka-parsing_2.12-10.0.10-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.0.10/akka-parsing_2.12-10.0.10-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -123,14 +219,14 @@
 				<metadata-artifact status="no" details="" size="3536" time="0" location="/Users/b0915218/.ivy2/cache/io.circe/circe-generic_2.12/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-generic_2.12/0.8.0/circe-generic_2.12-0.8.0.pom"/>
 				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.1" extra-info.apiURL="https://circe.github.io/circe/api/"/>
 				<artifacts>
-					<artifact name="circe-generic_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="12775" time="199" location="/Users/b0915218/.ivy2/cache/io.circe/circe-generic_2.12/srcs/circe-generic_2.12-0.8.0-sources.jar">
+					<artifact name="circe-generic_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12775" time="0" location="/Users/b0915218/.ivy2/cache/io.circe/circe-generic_2.12/srcs/circe-generic_2.12-0.8.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-generic_2.12/0.8.0/circe-generic_2.12-0.8.0-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.chuusai" name="shapeless_2.12">
-			<revision name="2.3.2" status="release" pubdate="20161102095049" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+			<revision name="2.3.2" status="release" pubdate="20161102095049" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3226" time="0" location="/Users/b0915218/.ivy2/cache/com.chuusai/shapeless_2.12/ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2.pom"/>
 				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="0.1"/>
@@ -178,7 +274,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scala-library">
-			<revision name="2.12.3" status="release" pubdate="20170725114730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.3/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="13">
+			<revision name="2.12.3" status="release" pubdate="20170725114730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.3/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="17">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
 				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/b0915218/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.3/scala-library-2.12.3.pom"/>
 				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="2.12.3" rev-constraint-default="2.12.3" rev-constraint-dynamic="2.12.3" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.3/"/>
@@ -195,26 +291,26 @@
 				<metadata-artifact status="no" details="" size="3081" time="0" location="/Users/b0915218/.ivy2/cache/io.circe/circe-jawn_2.12/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.8.0/circe-jawn_2.12-0.8.0.pom"/>
 				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.1" extra-info.apiURL="https://circe.github.io/circe/api/"/>
 				<artifacts>
-					<artifact name="circe-jawn_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2039" time="358" location="/Users/b0915218/.ivy2/cache/io.circe/circe-jawn_2.12/srcs/circe-jawn_2.12-0.8.0-sources.jar">
+					<artifact name="circe-jawn_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2039" time="0" location="/Users/b0915218/.ivy2/cache/io.circe/circe-jawn_2.12/srcs/circe-jawn_2.12-0.8.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.8.0/circe-jawn_2.12-0.8.0-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="io.circe" name="circe-core_2.12">
-			<revision name="0.8.0" status="release" pubdate="20170509150537" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="17">
+			<revision name="0.8.0" status="release" pubdate="20170509150537" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="22">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3080" time="0" location="/Users/b0915218/.ivy2/cache/io.circe/circe-core_2.12/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-core_2.12/0.8.0/circe-core_2.12-0.8.0.pom"/>
 				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.1" extra-info.apiURL="https://circe.github.io/circe/api/"/>
 				<artifacts>
-					<artifact name="circe-core_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="37858" time="298" location="/Users/b0915218/.ivy2/cache/io.circe/circe-core_2.12/srcs/circe-core_2.12-0.8.0-sources.jar">
+					<artifact name="circe-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37858" time="0" location="/Users/b0915218/.ivy2/cache/io.circe/circe-core_2.12/srcs/circe-core_2.12-0.8.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-core_2.12/0.8.0/circe-core_2.12-0.8.0-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.typelevel" name="cats-core_2.12">
-			<revision name="0.9.0" status="release" pubdate="20170115233305" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+			<revision name="0.9.0" status="release" pubdate="20170115233305" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
 				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
 				<metadata-artifact status="no" details="" size="3494" time="0" location="/Users/b0915218/.ivy2/cache/org.typelevel/cats-core_2.12/ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/0.9.0/cats-core_2.12-0.9.0.pom"/>
 				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.1" extra-info.apiURL="http://typelevel.org/cats/api/"/>
@@ -250,7 +346,7 @@
 			</revision>
 		</module>
 		<module organisation="org.typelevel" name="machinist_2.12">
-			<revision name="0.6.1" status="release" pubdate="20161029161418" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/typelevel/machinist" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+			<revision name="0.6.1" status="release" pubdate="20161029161418" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/typelevel/machinist" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
 				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
 				<metadata-artifact status="no" details="" size="2785" time="0" location="/Users/b0915218/.ivy2/cache/org.typelevel/machinist_2.12/ivy-0.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.1/machinist_2.12-0.6.1.pom"/>
 				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="0.6.1" rev-constraint-default="0.6.1" rev-constraint-dynamic="0.6.1" callerrev="0.1"/>
@@ -262,7 +358,7 @@
 			</revision>
 		</module>
 		<module organisation="com.github.mpilquist" name="simulacrum_2.12">
-			<revision name="0.10.0" status="release" pubdate="20161103141330" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/mpilquist/simulacrum" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+			<revision name="0.10.0" status="release" pubdate="20161103141330" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/mpilquist/simulacrum" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
 				<license name="Three-clause BSD-style" url="https://github.com/mpilquist/simulacrum/blob/master/LICENSE"/>
 				<metadata-artifact status="no" details="" size="3140" time="0" location="/Users/b0915218/.ivy2/cache/com.github.mpilquist/simulacrum_2.12/ivy-0.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.12/0.10.0/simulacrum_2.12-0.10.0.pom"/>
 				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="0.10.0" rev-constraint-default="0.10.0" rev-constraint-dynamic="0.10.0" callerrev="0.1"/>
@@ -274,7 +370,7 @@
 			</revision>
 		</module>
 		<module organisation="org.typelevel" name="macro-compat_2.12">
-			<revision name="1.1.1" status="release" pubdate="20161102084258" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+			<revision name="1.1.1" status="release" pubdate="20161102084258" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2964" time="0" location="/Users/b0915218/.ivy2/cache/org.typelevel/macro-compat_2.12/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom"/>
 				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1"/>
@@ -286,12 +382,12 @@
 			</revision>
 		</module>
 		<module organisation="io.circe" name="circe-numbers_2.12">
-			<revision name="0.8.0" status="release" pubdate="20170509150520" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+			<revision name="0.8.0" status="release" pubdate="20170509150520" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3047" time="0" location="/Users/b0915218/.ivy2/cache/io.circe/circe-numbers_2.12/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.8.0/circe-numbers_2.12-0.8.0.pom"/>
 				<caller organisation="default" name="ux-analytics$sources" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.1" extra-info.apiURL="https://circe.github.io/circe/api/"/>
 				<artifacts>
-					<artifact name="circe-numbers_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3819" time="196" location="/Users/b0915218/.ivy2/cache/io.circe/circe-numbers_2.12/srcs/circe-numbers_2.12-0.8.0-sources.jar">
+					<artifact name="circe-numbers_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3819" time="0" location="/Users/b0915218/.ivy2/cache/io.circe/circe-numbers_2.12/srcs/circe-numbers_2.12-0.8.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.8.0/circe-numbers_2.12-0.8.0-sources.jar"/>
 					</artifact>
 				</artifacts>

@@ -1,15 +1,14 @@
-package uk.ac.ncl.opanlab.ux.analytics.server
+package uk.ac.ncl.openlab.uxAnalytics.server
 
 import java.time.ZonedDateTime
 
 import anorm.{Macro, SQL}
-import uk.ac.ncl.opanlab.ux.analytics.server.db.DataBaseConnection
-
-import scala.util.{Failure, Success}
-import io.circe._
 import io.circe.generic.auto._
 import io.circe.parser._
 import io.circe.syntax._
+import uk.ac.ncl.openlab.uxAnalytics.db.DataBaseConnection
+
+import scala.util.{Failure, Success}
 
 /**
   * Created by Tim Osadchiy on 20/10/2017.

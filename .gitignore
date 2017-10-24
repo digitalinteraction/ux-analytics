@@ -4,3 +4,4 @@
 *.log
 /db-compose/volumes
 .idea
+src/main/scala/application.conf

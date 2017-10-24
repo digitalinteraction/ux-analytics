@@ -1,4 +1,4 @@
-package uk.ac.ncl.opanlab.ux.analytics.server.db
+package uk.ac.ncl.openlab.uxAnalytics.db
 
 import java.sql.{Connection, DriverManager}
 
