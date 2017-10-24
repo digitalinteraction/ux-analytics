@@ -3,4 +3,5 @@
 *.class
 *.log
 /db-compose/volumes
+.idea
 
