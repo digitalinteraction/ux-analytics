@@ -1,0 +1,7 @@
+CREATE TABLE ux_data (
+  id SERIAL PRIMARY KEY,
+  event_category VARCHAR(500) NOT NULL,
+  event_name VARCHAR(500) NOT NULL,
+  data JSON NOT NULL,
+  created TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW()
+)
