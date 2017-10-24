@@ -3,11 +3,11 @@ services:
 
   i24-db:
     restart: always
-    build: ./db-compose/
+    build: .
     environment:
       POSTGRES_USER: ux_data
       POSTGRES_PASSWORD: rate8&slinky
     ports:
       - '5436:5432'
     volumes:
-      - ./db-compose/volumes/db:/var/lib/postgresql/data
+      - ./volumes/db:/var/lib/postgresql/data
