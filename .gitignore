@@ -4,4 +4,3 @@
 *.log
 /db-compose/volumes
 .idea
-
