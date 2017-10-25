@@ -12,7 +12,8 @@ import scala.util.{Failure, Try}
 /**
   * Created by Tim Osadchiy on 20/10/2017.
   */
-object DataBaseConnection {
+
+protected object DataBaseConnection {
 
   private val dataSource = {
     DriverManager.registerDriver(new org.postgresql.Driver)
