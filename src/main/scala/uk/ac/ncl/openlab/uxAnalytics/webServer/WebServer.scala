@@ -22,7 +22,7 @@ import scala.util.{Failure, Success}
   */
 
 
-case class EmitRequest(eventCategory: String, eventName: String, data: Json)
+case class EmitRequest(eventCategories: Seq[String], eventName: String, data: Json)
 
 object WebServer {
 
@@ -59,7 +59,7 @@ object WebServer {
     val routes =
       createSecureRoute(HttpMethods.POST, "emit") {
         entity(as[EmitRequest]) { emitRequest =>
-          val ev = UxEvent(emitRequest.eventCategory, emitRequest.eventName, emitRequest.data)
+          val ev = UxEvent(emitRequest.eventCategories, emitRequest.eventName, emitRequest.data)
           val res = UxEventRepo.put(ev) match {
             case Failure(e) => HttpResponse(StatusCodes.BadRequest, entity = e.getMessage)
             case Success(newEvent) => HttpResponse(StatusCodes.OK,
